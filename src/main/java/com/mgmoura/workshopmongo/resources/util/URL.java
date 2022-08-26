@@ -9,9 +9,9 @@ public class URL {
 		try {
 			return URLDecoder.decode(text, "UTF8");
 		} catch (UnsupportedEncodingException e) {
-			e.printStackTrace();
+			return "";
 		}
-		return "";
+		
 	}
 
 }
